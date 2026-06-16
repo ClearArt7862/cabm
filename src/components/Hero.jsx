@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowUpRight, ChevronRight, ShieldCheck, Clock, Award, Calendar } from 'lucide-react'
 import { fadeRight, staggerContainer, staggerItem } from '../utils/motionVariants'
+import heroImg from '../../IMG/Projects/Project-3img.jpg'
 
 const trustPoints = [
   { icon: Calendar, label: 'Est. 2022' },
@@ -79,7 +80,7 @@ export default function Hero() {
             className="relative w-full max-w-lg rounded-3xl overflow-hidden shadow-lift"
           >
             <img
-              src="https://craft-build-dream.lovable.app/assets/service-interior-C8A8Gki1.jpg"
+              src={heroImg}
               alt="Sophisticated Al Reem corporate office fit-out featuring custom joinery, premium interior decoration, and ambient lighting"
               className="w-full h-[560px] object-cover"
               loading="eager"

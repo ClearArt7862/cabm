@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ArrowUpRight, MapPin, Calendar, CheckCircle2, ChevronRight } from 'lucide-react'
 
-const p1 = 'https://craft-build-dream.lovable.app/assets/service-renovation-DJf4F6zq.jpg'
-const p2 = 'https://craft-build-dream.lovable.app/assets/service-electrical-DockSp9-.jpg'
-const p3 = 'https://craft-build-dream.lovable.app/assets/service-interior-C8A8Gki1.jpg'
-const p4 = 'https://craft-build-dream.lovable.app/assets/service-paint-ClRdx2Mb.jpg'
-const p5 = 'https://craft-build-dream.lovable.app/assets/service-ac-Co4OxDoP.jpg'
-const p6 = 'https://craft-build-dream.lovable.app/assets/service-civil-BgT5WNto.jpg'
+import p1 from '../../IMG/Projects/Project-1img.jpg'
+import p2 from '../../IMG/Projects/Project-2img.jpg'
+import p3 from '../../IMG/Projects/Project-3img.jpg'
+import p4 from '../../IMG/Projects/Project-4img.jpg'
+import p5 from '../../IMG/Projects/Project-5img.jpg'
+import p6 from '../../IMG/Projects/Project-6img.jpg'
 
 const CATEGORIES = [
   'All',

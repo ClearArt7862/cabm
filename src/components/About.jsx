@@ -5,6 +5,9 @@ import {
   X, ArrowUpRight, Target, Award, MapPin, Users, ChevronRight
 } from 'lucide-react'
 import { fadeLeft, fadeRight, staggerContainer, staggerItem, viewportOnce } from '../utils/motionVariants'
+import a1 from '../../IMG/About/About-1img.jpeg'
+import a2 from '../../IMG/About/About-2img.jpeg'
+import a3 from '../../IMG/About/About-3img.jpg'
 
 const cards = [
   {
@@ -116,7 +119,7 @@ function AboutPanel({ onClose }) {
             </h3>
             <div className="rounded-2xl overflow-hidden mb-6" style={{ aspectRatio: '16/7' }}>
               <img
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80"
+                src={a1}
                 alt="Luxury interior completed by CABM"
                 className="w-full h-full object-cover"
               />
@@ -225,12 +228,12 @@ export default function About() {
           className="relative h-[420px] md:h-[540px]"
         >
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=700&q=80"
+            src={a2}
             alt="Clean Art team at work"
             className="absolute top-0 left-0 w-[75%] h-[80%] object-cover rounded-2xl shadow-card"
           />
           <img
-            src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=500&q=80"
+            src={a3}
             alt="Technician performing maintenance"
             className="absolute bottom-0 right-0 w-[55%] h-[55%] object-cover rounded-2xl shadow-lift border-4 border-white"
           />

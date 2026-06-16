@@ -12,11 +12,19 @@ import {
   CheckCircle2,
   ChevronRight,
 } from 'lucide-react'
+import s1 from '../../IMG/Services/Services-1img.jpg'
+import s2 from '../../IMG/Services/Services-2img.jpg'
+import s3 from '../../IMG/Services/Services-3img.jpg'
+import s4 from '../../IMG/Services/Services-4img.jpg'
+import s5 from '../../IMG/Services/Services-5img.jpg'
+import s6 from '../../IMG/Services/Services-6img.jpg'
+
+
 
 const services = [
   {
     id: 'civil',
-    image: 'https://craft-build-dream.lovable.app/assets/service-civil-BgT5WNto.jpg',
+    image: s1,
     icon: Hammer,
     number: '01',
     title: 'Civil and Construction Works',
@@ -37,7 +45,7 @@ const services = [
   },
   {
     id: 'electrical',
-    image: 'https://craft-build-dream.lovable.app/assets/service-electrical-DockSp9-.jpg',
+    image: s2,
     icon: Zap,
     number: '02',
     title: 'Electrical and Plumbing',
@@ -58,7 +66,7 @@ const services = [
   },
   {
     id: 'ac',
-    image: 'https://craft-build-dream.lovable.app/assets/service-ac-Co4OxDoP.jpg',
+    image: s3,
     icon: Wind,
     number: '03',
     title: 'AC Installation and Service',
@@ -79,7 +87,7 @@ const services = [
   },
   {
     id: 'painting',
-    image: 'https://craft-build-dream.lovable.app/assets/service-paint-ClRdx2Mb.jpg',
+    image: s4,
     icon: Paintbrush,
     number: '04',
     title: 'Painting and Finishing',
@@ -100,7 +108,7 @@ const services = [
   },
   {
     id: 'renovation',
-    image: 'https://craft-build-dream.lovable.app/assets/service-renovation-DJf4F6zq.jpg',
+    image: s5,
     icon: Wrench,
     number: '05',
     title: 'Renovation and Remodeling',
@@ -121,7 +129,7 @@ const services = [
   },
   {
     id: 'interior',
-    image: 'https://craft-build-dream.lovable.app/assets/service-interior-C8A8Gki1.jpg',
+    image: s6,
     icon: Sparkles,
     number: '06',
     title: 'Interior Decoration',
